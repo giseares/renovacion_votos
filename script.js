@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Abrir el formulario de Google en una nueva ventana al hacer clic en el botón "Voy a asistir"
   voyAsistirBtn.addEventListener("click", () => {
-    window.open("https://forms.gle/tuFormularioGoogle", "_blank");
+    window.open("https://forms.gle/4J2xA4d2yxqHmmTj6", "_blank");
   });
 
   // Evento para reproducir o pausar la música
