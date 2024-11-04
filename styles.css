@@ -61,7 +61,7 @@ button {
   display: block; /* Asegura que el botón esté centrado */
   margin-left: auto;
   margin-right: auto; /* Centra el botón */
-  border-rafius: 5px;
+  border-radius: 5px;
 }
 
 button:hover {
