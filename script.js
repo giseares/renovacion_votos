@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const toggleAudioBtn = document.getElementById("toggleAudioBtn");
 
   // Crear un nuevo objeto Audio
-  const audio = new Audio("resources/cancion.m4a");
+  const audio = new Audio("resources/cancion.mp3");
 
   // Variable para controlar si el audio ya fue activado
   let audioActivated = false;
