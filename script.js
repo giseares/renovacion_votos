@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const invitacionImg = document.getElementById("invitacion-img");
   const textoInvitacion = document.getElementById("texto-invitacion");
   const voyAsistirBtn = document.getElementById("voyAsistirBtn");
-  const voyAsistirBtn = document.getElementById("noVoyAsistirBtn");
+  const noVoyAsistirBtn = document.getElementById("noVoyAsistirBtn");
   const toggleAudioBtn = document.getElementById("toggleAudioBtn");
 
   // Crear un nuevo objeto Audio
