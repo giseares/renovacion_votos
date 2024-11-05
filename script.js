@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const invitacionImg = document.getElementById("invitacion-img");
   const textoInvitacion = document.getElementById("texto-invitacion");
   const voyAsistirBtn = document.getElementById("voyAsistirBtn");
+  const voyAsistirBtn = document.getElementById("noVoyAsistirBtn");
   const toggleAudioBtn = document.getElementById("toggleAudioBtn");
 
   // Crear un nuevo objeto Audio
@@ -42,6 +43,11 @@ document.addEventListener("DOMContentLoaded", function() {
     window.open("https://api.whatsapp.com/send?phone=+5493624597356&text=Si%20voy%20al%20casamiento!!!", "_blank");
   });
 
+
+  noVoyAsistirBtn.addEventListener("click", () => {
+    window.open("https://api.whatsapp.com/send?phone=+5493624597356&text=No%20voy%20al%20casamiento", "_blank");
+  });
+  
   // Evento para reproducir o pausar la música
   toggleAudioBtn.addEventListener("click", () => {
     if (audio.paused) {
