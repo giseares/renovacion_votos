@@ -29,6 +29,16 @@
     <!-- RELACIONES -->
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HE9QW7PKN9"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-HE9QW7PKN9');
+    </script>
   </head>
   
 
@@ -47,8 +57,8 @@
         <p>La ceremonia será el día 17 de noviembre de 2024 a las 21:30 horas en Casa de campo "Doña Tere".
          <p>¡Te esperamos con muchas sorpresas!</p>
         <br>
-        <button id="voyAsistirBtn">Claro que voy 🎉!</button>
-        <button id="noVoyAsistirBtn">No puedo ir 😔</button>
+        <button id="voyAsistirBtn" onclick="gtag('event', 'click', {'event_category': 'Assistance', 'event_label': 'Voy a asistir'});">Claro que voy 🎉!</button>
+        <button id="noVoyAsistirBtn" onclick="gtag('event', 'click', {'event_category': 'Assistance', 'event_label': 'No voy a asistir'});">No puedo ir 😔</button>        
       </div>
     </div>
   </body>
